@@ -1,0 +1,40 @@
+{
+  "editor.fontFamily": "Fira Code Retina",
+   "terminal.integrated.fontFamily": "Fira Code Retina",
+   "terminal.integrated.fontSize": 17,
+   "editor.minimap.enabled": false,
+   "editor.fontSize": 18,
+   "python.linting.enabled": false,
+   "editor.codeLensFontFamily": "Fira Code Retina",
+   "editor.fontLigatures": true,
+   "editor.renderIndentGuides": false,
+   "workbench.iconTheme": "material-icon-theme",
+   "explorer.confirmDelete": false,
+   "markdown.preview.fontFamily": "Fira Code Retina",
+   "debug.console.fontFamily": "Fira Code Retina",
+   "vim.useCtrlKeys": false,
+   "editor.lineNumbers": "on",
+
+   // Setting integrated terminal to use cmder
+   "terminal.integrated.shell.windows":   "C:\\WINDOWS\\System32\\cmd.exe",
+   "terminal.integrated.shellArgs.windows": [
+     "/K",
+     "C:\\cmder\\vendor\\bin\\vscode_init.cmd"
+   ],
+   "[python]": {
+     "editor.defaultFormatter": "ms-python.python"
+   },
+  
+  // Disabling Intellisense and stuff
+  "editor.wordWrap": "off",
+  "editor.wrappingIndent": "none",
+  "editor.quickSuggestions": false,
+  "editor.parameterHints": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  
+  // Configuring Code Runner
+  "code-runner.showExecutionMessage": false,
+  "code-runner.clearPreviousOutput": true,
+
+}
